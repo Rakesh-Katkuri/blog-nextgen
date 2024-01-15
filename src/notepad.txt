@@ -1,0 +1,79 @@
+imageurl
+https://cdn-bfcmg.nitrocdn.com/EIXiyFQqcKkRAEqwTfXhKBHviZTFSQGm/assets/images/optimized/rev-9e9939c/thameswoodvets.co.uk/wp-content/uploads/2022/04/labradorfat800.jpg
+
+https://w0.peakpx.com/wallpaper/32/729/HD-wallpaper-boat-oar-coast-lake-nature.jpg
+
+
+
+////
+
+ <div className="card-body">
+                  <h1 className="blog-title">{blog.title}</h1>
+                  <p className="blog-description">{blog.description}</p>
+
+                  {/* {showButtons && blog.userId === userId && (
+                    <div className="d-flex justify-content-end">
+                      <Link to={`/update/${blog.id}`}>
+                        <button
+                          onClick={handleUpdateNew}
+                          className="btn btn-warning ms-auto me-2"
+                        >
+                          <i className="fa-solid fa-pen-to-square"></i>
+                        </button>
+                      </Link>
+                      <button
+                        onClick={() => deletePost(blog.id)}
+                        className="btn btn-danger"
+                      >
+                        <i className="fa-solid fa-trash"></i>
+                      </button>
+                    </div>
+                  )} */}
+
+
+                  {showButtons && blog.userId === userId && (
+                    <div className="d-flex justify-content-end">
+                      {/* Three Dots Dropdown */}
+                      <div className="dropdown">
+                        <button
+                          className="btn btn-secondary dropdown-toggle"
+                          type="button"
+                          id={`dropdownMenuButton-${blog.id}`}
+                          data-bs-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                          onClick={() => setSelectedBlog(blog)}
+                        >
+                          <i className="fas fa-ellipsis-v"></i>
+                        </button>
+                        <div
+                          className={`dropdown-menu ${
+                            selectedBlog === blog ? "show" : ""
+                          }`}
+                          aria-labelledby={`dropdownMenuButton-${blog.id}`}
+                        >
+                          {/* Edit Button */}
+                          <Link to={`/update/${blog.id}`}>
+                            <button
+                              onClick={handleUpdateNew}
+                              className="dropdown-item"
+                            >
+                              <i className="fas fa-edit"></i> Edit
+                            </button>
+                          </Link>
+
+                          {/* Delete Button */}
+                          <button
+                            onClick={() => {
+                              deletePost(blog.id);
+                              setSelectedBlog(null);
+                            }}
+                            className="dropdown-item"
+                          >
+                            <i className="fas fa-trash"></i> Delete
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>

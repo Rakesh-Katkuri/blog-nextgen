@@ -1,0 +1,29 @@
+
+.custom-col{
+    width: 45%;
+    
+}
+.custom-row{
+    margin: 1.25rem;
+    justify-content: center;
+}
+
+.custom-like-fav{
+/* border: 1px solid black; */
+padding: 5px;
+margin: 0px;
+background: rgb(144, 182, 216);
+}
+
+.custom-interaction-button{
+    border: none;
+    background: rgb(144, 182, 216);
+}
+.custom-interaction-button:hover{
+    border: none;
+    background: rgb(90, 91, 92);
+    color: white;
+}
+.liked{
+    color: blue;
+}

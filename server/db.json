@@ -1,0 +1,39 @@
+{
+  "user": [
+    {
+      "id": "ce1c",
+      "firstName": "r",
+      "lastName": "k",
+      "email": "rr@gmail.com",
+      "password": "rr123"
+    }
+  ],
+  "posts": [
+    {
+      "id": "b2d3",
+      "imageUrl": "https://w0.peakpx.com/wallpaper/32/729/HD-wallpaper-boat-oar-coast-lake-nature.jpg",
+      "title": "jhg",
+      "description": "kil",
+      "likesBy": [
+        "ce1c"
+      ],
+      "userId": "ce1c",
+      "likes": 1,
+      "favorites": [
+        "ce1c"
+      ]
+    },
+    {
+      "id": "a065",
+      "imageUrl": "https://w0.peakpx.com/wallpaper/32/729/HD-wallpaper-boat-oar-coast-lake-nature.jpg",
+      "title": "j",
+      "description": "poi",
+      "likesBy": [],
+      "userId": "ce1c",
+      "likes": 0,
+      "favorites": [
+        "ce1c"
+      ]
+    }
+  ]
+}

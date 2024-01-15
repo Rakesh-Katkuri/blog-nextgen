@@ -1,0 +1,62 @@
+.custom-navbar{
+    height: 90px;
+    background: white;
+    /* background-color: rgba(180, 180, 180); */
+}
+
+.nav-item{
+    font-weight: 600;
+    font-size: large;
+}
+
+/* for search */
+.has-search .form-control {
+    padding-left: 1.375rem;
+    border: 1px solid black;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+
+}
+.has-search{
+    margin-right: 60px;
+}
+
+.custom-search-icon{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.custom-search-icon:hover{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.dropdown-toggle::after{
+    display: none !important;
+    
+}
+.profile-icon{
+    background-color: black;
+    border-color: black;
+    border-radius: 50%;
+}
+.custome-profile{
+    text-align: center;
+    margin-top: 15px;
+}
+.profileHover:hover{
+    background-color: rgb(49, 46, 46);
+    color: white;
+}
+
