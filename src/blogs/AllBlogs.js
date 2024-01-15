@@ -3,10 +3,11 @@ import Navbar from "../home/Navbar";
 import { useAuth } from "../authContext/AuthContext";
 import "./style.css";
 import axios from "axios";
-import BlogList from "./BlogList";
+// import BlogList from "./BlogList";
 import { useLocation } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import BlogList from "./BlogList1";
 
 //redux
 // import { useSelector, useDispatch } from "react-redux";

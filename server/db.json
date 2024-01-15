@@ -28,12 +28,12 @@
       "imageUrl": "https://w0.peakpx.com/wallpaper/32/729/HD-wallpaper-boat-oar-coast-lake-nature.jpg",
       "title": "j",
       "description": "poi",
-      "likesBy": [],
-      "userId": "ce1c",
-      "likes": 0,
-      "favorites": [
+      "likesBy": [
         "ce1c"
-      ]
+      ],
+      "userId": "ce1c",
+      "likes": 1,
+      "favorites": []
     }
   ]
 }

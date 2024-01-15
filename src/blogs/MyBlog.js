@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../home/Navbar";
 import { useAuth } from "../authContext/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
-import BlogList from "./BlogList";
+import BlogList from "./BlogList1";
+// import BlogList from "./BlogList";
 
 function MyBlog() {
   const { posts, getMyBlogs, deletePost, handleLike, handleFavorite } =

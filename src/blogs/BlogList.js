@@ -51,11 +51,7 @@ const BlogList = ({
       rows.push(
         <div className="row custom-row" key={i}>
           {row.map((blog) => (
-            <div
-              className={`col-md-${12 / itemsPerRow}`}
-              key={blog.id}
-              onClick={() => handleCardClick(blog)}
-            >
+            <div className={`col-md-${12 / itemsPerRow}`} key={blog.id}>
               <div className="card">
                 {/* Title and Three Dots in the same row */}
                 <div className="card-header d-flex justify-content-between align-items-center">
@@ -69,7 +65,7 @@ const BlogList = ({
                         data-bs-toggle="dropdown"
                         aria-haspopup="true"
                         aria-expanded="false"
-                        onClick={() => setSelectedBlog(blog)}
+                        // onClick={() => setSelectedBlog(blog)}
                       >
                         <i className="fas fa-ellipsis-v"></i>
                       </button>
@@ -110,6 +106,7 @@ const BlogList = ({
                     src={blog.imageUrl}
                     className="card-img-top blog-image custom-img"
                     alt="image blog"
+                    onClick={() => handleCardClick(blog)}
                   />
                 </div>
 

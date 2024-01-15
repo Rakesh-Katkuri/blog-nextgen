@@ -22,7 +22,7 @@ const BlogDetail = () => {
   }, [id]);
 
   if (!blog) {
-    return <div>Loading...</div>;
+    return <div>Loading...blogdetail</div>;
   }
 
   const headerStyle = {
